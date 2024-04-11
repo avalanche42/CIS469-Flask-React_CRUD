@@ -22,7 +22,7 @@ def index():
                       (id INTEGER PRIMARY KEY, name TEXT, email TEXT)''')
     conn.commit()
     conn.close()
-    return 'Dabase Created'
+    return 'Database Created'
 
 
 
